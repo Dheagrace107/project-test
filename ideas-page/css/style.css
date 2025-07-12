@@ -163,7 +163,7 @@ body {
 }
 
 .hero-image {
-    background-image: url("../assets/ideas.png");
+    background-image: url("assets/ideas.png");
     background-size: cover;
     background-position: center;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -203,7 +203,6 @@ body {
     height: 80px;
     background-color: white;
     clip-path: polygon(100% 0, 100% 100%, 0 100%);
-    /* ✅ Miring ke kiri */
     z-index: 2;
 }
 
@@ -211,7 +210,6 @@ body {
     width: 100%;
     height: 180px;
     object-fit: cover;
-    /* menjaga ratio tetap bagus */
     border-radius: 4px;
 }
 
